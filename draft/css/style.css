@@ -1,0 +1,78 @@
+*{box-sizing: border-box;}
+html{font-size: 62.5%;}
+body{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+    color: black;
+}
+ul{list-style: none; padding: 0; margin: 0;}
+img{max-width: 100%;}
+a{color: black;}
+
+
+article{
+    border: solid 1px #bdbdbd;
+    padding: 1rem;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+}
+
+.img-container p{
+    margin-bottom: 5px;
+}
+
+.img-container span{
+    display: block;
+}
+
+.img-container img{
+    width: 5%;
+    border-radius: 100%;
+}
+
+.username-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.container{
+    max-width: 80%;
+}
+
+.content{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem; 
+    border-bottom: solid 1px grey;
+}
+
+.stats span{
+    font-weight: bold;
+}
+
+.reactions{
+    text-align: center;
+}
+
+.reactions ul{
+    display: flex;
+    justify-content: space-around;
+}
+.reactions img{
+    width: 12%;
+}
+
+.stats, .reactions{
+    margin: 1.5rem;
+}
